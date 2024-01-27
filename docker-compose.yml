@@ -28,4 +28,8 @@ services:
       - './adguard_config:/opt/adguardhome/conf'
     image: adguard/adguardhome
     network_mode: service:tailscale
+    
+volumes:
+  adguard_data:
+  adguard_config:
 
