@@ -17,7 +17,7 @@ services:
       - "41230:41230"
     healthcheck:
       test: "false"
-      interval: 1d
+      interval: 24h
       timeout: 10s
       retries: 3
 
